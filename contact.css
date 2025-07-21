@@ -1,0 +1,50 @@
+fieldset {
+    max-width: 400px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+}
+
+legend {
+    margin-bottom: 1rem;
+}
+
+input,
+textarea {
+    align-self: stretch;
+    padding: 12px 12px;
+    border: black;
+    border-radius: 6px;
+    background-color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+textarea {
+    min-height: 120px;
+    resize: none;
+}
+
+main {
+    background-color: #7E1418;
+}
+
+/* Mobile first */
+.banner {
+    display: none;
+}
+
+/* Tablet */
+@media (min-width: 600px) and (max-width: 1023px) {}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .banner {
+        background-image: url('assets/contact/banner.webp');
+        background-position: center;
+        flex-direction: column;
+        justify-content: center;
+        display: block;
+    }
+}
