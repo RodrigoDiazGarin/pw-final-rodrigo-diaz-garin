@@ -11,7 +11,11 @@ body {
 }
 
 .frame {
-    margin: 0 6%;
+    padding: 0 6%;
+}
+
+main {
+    height: 90vh;
 }
 
 /* Header */
@@ -65,7 +69,7 @@ button {
     border: none;
     border-radius: 12px;
     color: white;
-    padding: 16px 48px;
+    padding: 12px 48px;
     font-size: large;
     font-weight: bold;
     text-align: center;
@@ -102,7 +106,7 @@ button:hover {
 /* Desktop */
 @media (min-width: 1024px) {
     .frame {
-        margin: 0 10%;
+        padding: 0 10%;
     }
 
     #menu {

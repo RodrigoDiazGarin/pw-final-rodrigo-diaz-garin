@@ -26,8 +26,19 @@ textarea {
     resize: none;
 }
 
-main {
+html,
+body {
     background-color: #7E1418;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+img {
+    height: 500px;
 }
 
 /* Mobile first */
@@ -39,12 +50,4 @@ main {
 @media (min-width: 600px) and (max-width: 1023px) {}
 
 /* Desktop */
-@media (min-width: 1024px) {
-    .banner {
-        background-image: url('assets/contact/banner.webp');
-        background-position: center;
-        flex-direction: column;
-        justify-content: center;
-        display: block;
-    }
-}
+@media (min-width: 1024px) {}
