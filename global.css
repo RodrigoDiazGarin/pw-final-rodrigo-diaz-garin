@@ -1,14 +1,18 @@
-html,
-body {
-
+/* ===== Global ===== */
+* {
     margin: 0;
     padding: 0;
-    background-color: black;
-    color: white;
-    font-family: 'Trebuchet MS', sans-serif;
-    line-height: 2rem;
 }
 
+html,
+body {
+    background-color: black;
+    color: white;
+
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* ===== Layout ===== */
 .frame {
     padding: 0 6%;
 }
@@ -17,7 +21,16 @@ main {
     height: 90vh;
 }
 
-/* Header */
+h1,
+h2 {
+    margin-bottom: 1rem;
+}
+
+p {
+    line-height: 2rem;
+}
+
+/* ===== Header ===== */
 header {
     height: 10vh;
     background-color: black;
@@ -26,10 +39,6 @@ header {
     font-family: 'Luckiest Guy';
     font-size: large;
     gap: 5%;
-}
-
-#menu-desktop {
-    display: none;
 }
 
 #nav-logo {
@@ -41,6 +50,10 @@ header {
     margin-left: auto;
     display: block;
     cursor: pointer;
+}
+
+#menu-desktop {
+    display: none;
 }
 
 nav ul {
@@ -62,7 +75,7 @@ a:hover {
     color: #F15F27;
 }
 
-/* Button */
+/* ===== Button ===== */
 button {
     background: black;
     border: none;
@@ -82,7 +95,7 @@ button:hover {
     background-color: #F15F27;
 }
 
-/* Banner */
+/* ===== Banner ===== */
 .banner {
     height: 90vh;
     background-size: cover;
