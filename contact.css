@@ -36,7 +36,6 @@ main {
 }
 
 main>div {
-    order: 1;
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
@@ -44,6 +43,7 @@ main>div {
 
 img {
     object-fit: contain;
+    order: -1;
 }
 
 /* Tablet */
@@ -61,5 +61,9 @@ img {
     main>div,
     main>img {
         width: 50%;
+    }
+
+    img {
+        order: 0;
     }
 }
