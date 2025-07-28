@@ -1,0 +1,33 @@
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0;
+    gap: 50px;
+}
+
+article>img {
+    width: 100vw;
+    max-width: 550px;
+    border-radius: 12px;
+}
+
+p {
+    max-width: 380px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    article {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
