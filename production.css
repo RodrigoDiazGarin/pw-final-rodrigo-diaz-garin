@@ -9,7 +9,7 @@ article {
 
 article>img {
     width: 100vw;
-    max-width: 550px;
+    max-width: 500px;
     border-radius: 12px;
 }
 
@@ -28,6 +28,6 @@ div {
 @media (min-width: 1024px) {
     article {
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 }

@@ -2,10 +2,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
+    justify-content: center;
+    gap: 50px;
     margin: 12% auto;
-    max-width: 80%;
+}
+
+.bio p {
+    max-width: 360px;
 }
 
 .bio img {

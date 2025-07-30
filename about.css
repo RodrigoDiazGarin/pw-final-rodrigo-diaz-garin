@@ -9,12 +9,12 @@ article {
 
 article>img {
     width: 100vw;
-    max-width: 550px;
+    max-width: 450px;
     border-radius: 12px;
 }
 
 p {
-    max-width: 380px;
+    max-width: 440px;
 }
 
 div {
@@ -28,6 +28,6 @@ div {
 @media (min-width: 1024px) {
     article {
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 }
