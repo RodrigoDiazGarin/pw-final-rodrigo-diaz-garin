@@ -1,4 +1,3 @@
-/* ===== Global ===== */
 * {
     margin: 0;
     padding: 0;
@@ -8,17 +7,7 @@ html,
 body {
     background-color: black;
     color: white;
-
     font-family: 'Trebuchet MS', sans-serif;
-}
-
-/* ===== Layout ===== */
-.frame {
-    padding: 0 8%;
-}
-
-main {
-    height: 90vh;
 }
 
 h1,
@@ -30,7 +19,43 @@ p {
     line-height: 2rem;
 }
 
-/* ===== Header ===== */
+a {
+    text-decoration: none;
+    text-align: center;
+    color: whitesmoke;
+}
+
+a:hover {
+    color: #F15F27;
+}
+
+button,
+.button {
+    background: black;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 12px 48px;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    align-self: center;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #F15F27;
+}
+
+main {
+    min-height: 90vh;
+}
+
+.frame {
+    padding: 0 8%;
+}
+
 header {
     height: 10vh;
     background-color: black;
@@ -66,36 +91,8 @@ nav ul {
 nav ul li a {
     display: block;
     padding: 0 10px;
-    text-decoration: none;
-    text-align: center;
-    color: whitesmoke;
 }
 
-a:hover {
-    color: #F15F27;
-}
-
-/* ===== Button ===== */
-button {
-    background: black;
-    border: none;
-    border-radius: 12px;
-    color: white;
-    padding: 12px 48px;
-    font-size: large;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    align-self: center;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #F15F27;
-}
-
-/* ===== Banner ===== */
 .banner {
     height: 90vh;
     background-size: cover;
@@ -112,10 +109,21 @@ button:hover {
     padding-bottom: 4%;
 }
 
-/* Tablet */
+.centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.meme {
+    width: 450px;
+    border-radius: 12px;
+}
+
 @media (min-width: 500px) and (max-width: 1023px) {}
 
-/* Desktop */
 @media (min-width: 1024px) {
     .frame {
         padding: 0 10%;
