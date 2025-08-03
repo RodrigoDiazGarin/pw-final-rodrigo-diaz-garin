@@ -10,7 +10,6 @@ body {
     font-family: 'Trebuchet MS', sans-serif;
 }
 
-h1,
 h2,
 h3 {
     margin-bottom: 20px;
@@ -59,6 +58,7 @@ main {
 
 header {
     height: 10vh;
+    padding: 0 10%;
     background-color: black;
     display: flex;
     align-items: center;
@@ -126,9 +126,6 @@ nav ul li a {
 @media (min-width: 500px) and (max-width: 1023px) {}
 
 @media (min-width: 1024px) {
-    .frame {
-        padding: 0 10%;
-    }
 
     #menu {
         display: none;

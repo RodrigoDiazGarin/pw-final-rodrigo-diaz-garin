@@ -33,6 +33,7 @@ body {
 main {
     display: flex;
     flex-direction: column;
+    justify-content: stretch;
 }
 
 main>div {
@@ -41,13 +42,9 @@ main>div {
     margin: 0 auto;
 }
 
-img {
+main>img {
     object-fit: contain;
-    order: -1;
 }
-
-/* Tablet */
-@media (min-width: 600px) and (max-width: 1023px) {}
 
 /* Desktop */
 @media (min-width: 1024px) {
@@ -55,15 +52,15 @@ img {
         flex-direction: row;
         height: 90vh;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
     }
 
-    main>div,
     main>img {
         width: 50%;
+        order: 1;
     }
 
-    img {
-        order: 0;
+    main>div {
+        margin: 0;
     }
 }
