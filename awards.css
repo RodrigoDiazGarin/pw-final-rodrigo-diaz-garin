@@ -1,0 +1,30 @@
+#intro article {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    align-items: start;
+}
+
+#intro article img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 12px;
+    object-fit: cover;
+    aspect-ratio: 3/4;
+    margin-top: 40px;
+}
+
+.awards-list div {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 40px 0;
+}
+
+@media (min-width: 1024px) {
+    #columns {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+    }
+}
