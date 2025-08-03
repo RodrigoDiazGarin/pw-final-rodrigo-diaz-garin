@@ -10,6 +10,10 @@ body {
     font-family: 'Trebuchet MS', sans-serif;
 }
 
+h1 {
+    margin-bottom: 40px;
+}
+
 h2,
 h3 {
     margin-bottom: 20px;
@@ -48,12 +52,8 @@ button:hover {
     background-color: #F15F27;
 }
 
-main {
-    min-height: 90vh;
-}
-
 .frame {
-    padding: 0 10%;
+    padding: 40px 10%;
 }
 
 header {
@@ -122,8 +122,6 @@ nav ul li a {
     width: 450px;
     border-radius: 12px;
 }
-
-@media (min-width: 500px) and (max-width: 1023px) {}
 
 @media (min-width: 1024px) {
 

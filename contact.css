@@ -33,7 +33,6 @@ body {
 main {
     display: flex;
     flex-direction: column;
-    justify-content: stretch;
 }
 
 main>div {
@@ -50,8 +49,6 @@ main>img {
 @media (min-width: 1024px) {
     main {
         flex-direction: row;
-        height: 90vh;
-        align-items: center;
         justify-content: space-between;
     }
 
