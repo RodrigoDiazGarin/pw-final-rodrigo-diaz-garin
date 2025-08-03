@@ -23,7 +23,6 @@ article div {
     article {
         flex-direction: row;
         justify-content: space-between;
-        gap: 50px;
     }
 
     article:nth-child(even) {
