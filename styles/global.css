@@ -46,6 +46,7 @@ a {
 
 a:hover {
     color: #F15F27;
+    cursor: pointer;
 }
 
 .button {
@@ -80,6 +81,20 @@ header {
     font-family: 'Luckiest Guy';
     font-size: large;
     gap: 5%;
+}
+
+footer {
+    padding: 50px 0;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+}
+
+footer>img {
+    height: 140px;
 }
 
 #nav-logo {
