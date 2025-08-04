@@ -98,6 +98,10 @@ footer>img {
     height: 140px;
 }
 
+footer>p {
+    text-align: center;
+}
+
 #nav-logo {
     height: 40px;
 }
