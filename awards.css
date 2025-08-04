@@ -1,13 +1,12 @@
 #intro article {
     display: flex;
     flex-direction: column;
-    max-width: 500px;
-    align-items: start;
+    max-width: 450px;
 }
 
 #intro article img {
     width: 100%;
-    max-width: 600px;
+    max-width: 450px;
     border-radius: 12px;
     object-fit: cover;
     aspect-ratio: 3/4;
@@ -21,10 +20,23 @@
     margin: 40px 0;
 }
 
+.awards-list {
+    max-width: 500px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
 @media (min-width: 1024px) {
-    #columns {
-        display: flex;
+    #content {
+        flex-direction: row;
         justify-content: space-between;
+        align-items: start;
         gap: 40px;
     }
 }
