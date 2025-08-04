@@ -11,7 +11,8 @@ body {
 }
 
 h1 {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 h2,
@@ -53,7 +54,8 @@ button:hover {
 }
 
 .frame {
-    padding: 40px 10%;
+    padding: 50px 10%;
+    animation: fade-in 1s ease-out;
 }
 
 header {
@@ -99,6 +101,7 @@ nav ul li a {
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
+    animation: fade-in 1s ease-out;
 }
 
 .banner-content {
@@ -131,5 +134,19 @@ nav ul li a {
 
     #menu-desktop {
         display: initial;
+    }
+
+    h1 {
+        text-align: start;
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
     }
 }
