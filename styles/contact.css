@@ -25,7 +25,10 @@ textarea {
     resize: none;
 }
 
-html,
+html {
+    background-color: black;
+}
+
 body {
     background-color: #7E1418;
 }
