@@ -84,7 +84,8 @@ header {
 }
 
 footer {
-    padding: 50px 0;
+    background-color: black;
+    padding: 50px 10%;
     gap: 50px;
     display: flex;
     flex-direction: column;
