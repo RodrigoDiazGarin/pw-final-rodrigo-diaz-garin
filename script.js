@@ -1,3 +1,4 @@
+// Menu Desktop link activo
 document.addEventListener("DOMContentLoaded", () => {
     const path = location.pathname.split("/").pop() || "index.html";
     document.querySelectorAll("nav a").forEach(link => {
@@ -7,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-
+// Menu Mobile
 document.addEventListener("DOMContentLoaded", () => {
     const openBtn = document.getElementById("open-menu");
     const closeBtn = document.getElementById("close-menu");
@@ -26,4 +27,28 @@ document.addEventListener("DOMContentLoaded", () => {
             menu.style.display = "none";
         })
     );
+});
+
+// Reproductor
+document.addEventListener("DOMContentLoaded", () => {
+    const button = document.getElementById("audio-toggle");
+    const audio = document.getElementById("audio");
+
+    let isPlaying = false;
+
+    button.addEventListener("click", () => {
+        if (isPlaying) {
+            audio.pause();
+            button.textContent = "▶";
+        } else {
+            audio.play();
+            button.textContent = "⏸";
+        }
+        isPlaying = !isPlaying;
+    });
+
+    audio.addEventListener("ended", () => {
+        isPlaying = false;
+        button.textContent = "▶";
+    });
 });
