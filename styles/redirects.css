@@ -4,6 +4,11 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
+    min-height: 80dvh;
+}
+
+span {
+    font-size: large;
 }
 
 .meme {

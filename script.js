@@ -52,3 +52,16 @@ document.addEventListener("DOMContentLoaded", () => {
         button.textContent = "▶";
     });
 });
+
+// Form
+window.onload = function () {
+    const urlParams = new URLSearchParams(document.location.search);
+    const inputName = urlParams.get("name");
+
+    if (inputName) {
+        const span = document.getElementById("name")
+        span.textContent = inputName;
+    }
+};
+
+
