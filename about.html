@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/global.css" />
     <link rel="stylesheet" href="styles/about.css" />
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
@@ -26,7 +26,16 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <img src="assets/menu.png" id="menu" />
+        <button id="open-menu" aria-label="Abrir menú">☰</button>
+        <div id="fullscreen-menu">
+            <button id="close-menu" aria-label="Cerrar menú">✕</button>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="awards.html">Premios</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </div>
     </header>
 
     <main class="frame">

@@ -6,3 +6,24 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 });
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const openBtn = document.getElementById("open-menu");
+    const closeBtn = document.getElementById("close-menu");
+    const menu = document.getElementById("fullscreen-menu");
+
+    openBtn.addEventListener("click", () => {
+        menu.style.display = "flex";
+    });
+
+    closeBtn.addEventListener("click", () => {
+        menu.style.display = "none";
+    });
+
+    menu.querySelectorAll("a").forEach(link =>
+        link.addEventListener("click", () => {
+            menu.style.display = "none";
+        })
+    );
+});
