@@ -32,9 +32,9 @@ article div {
     background: none;
     border: none;
     color: white;
-    width: 2rem;
-    height: 2rem;
-    font-size: 1.5rem;
+    width: 32px;
+    height: 32px;
+    font-size: large;
     cursor: pointer;
 }
 
