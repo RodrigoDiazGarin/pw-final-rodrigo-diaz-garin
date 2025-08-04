@@ -143,37 +143,7 @@ nav ul li a.active {
     color: #F15F27;
 }
 
-.banner {
-    height: 90vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    animation: fade-in 1s ease-out;
-}
-
-.banner-content {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    padding-bottom: 4%;
-}
-
-.centered {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-}
-
-.meme {
-    width: 450px;
-    border-radius: 12px;
-}
-
-@media (min-width: 1024px) {
+@media (min-width: 1024px) {   
 
     #open-menu {
         display: none;
