@@ -27,6 +27,6 @@ iframe {
     display: flex;
     flex-direction: column;
     align-items: end;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
     gap: 20px;
 }
